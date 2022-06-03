@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #DAF0EE;
+    background-color: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,12 +11,35 @@ body {
 }
 
 #container {
-    background-color: #94D1BE;
+    background-color: #000;
     padding: 20px;
     border-radius: 10px;
     display: flex;
 }
 
-#container>block {
+#container>.block {
     padding: 20px;
+}
+
+.block {
+    color: #fff;
+}
+
+.block:first-child {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.information-container {
+    display: flex;
+}
+
+.info {
+    margin-left: 5px;
+}
+
+#location {
+    font-weight: bold;
+    font-size: 22px;
 }
